@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.logo img {
+    max-width: 150px;
+    margin-top: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.sales-info {
+    padding: 20px;
+    background-color: #222;
+}
+
+.sales-info h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.sales-info p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #d4af37;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #a87c28;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #222;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 1em;
+}
